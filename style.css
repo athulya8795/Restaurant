@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+.listitem{
+    list-style: none; /* remove the styling of list items */
+    display: inline;  /* to align all items in a line */
+    margin: 10px 20px;
+    font-weight: 700; /* to increase blodness */
+}
+li a:hover{
+    color: brown;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none; /* remove underlines */
+    color: black;
+}
+#home{
+    background-image: url('https://t4.ftcdn.net/jpg/04/76/57/27/360_F_476572792_zMwqHpmGal1fzh0tDJ3onkLo88IjgNbL.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#content{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50%;
+    text-align: justify;
+}
+#about{
+    margin-top: 20px;
+    display: flex;
+    padding: 5px;
+}
+#para{
+    margin-left: 10%;
+    margin-bottom: 600px;
+    justify-content: center;
+}
+#photo h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -350px;
+}
+#menu h1{
+    text-align: center;
+}
+#food{
+    display: flex;
+    gap: 5.5rem;
+}
+.card h1{
+    font-size: 30px;
+}
+.card p{
+    text-align: justify;
+}
+#contact{
+    margin-top: 5px;
+    text-align: center;
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.icon, .up-arrow{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red ; */
+    border-radius: 50%;
+}
+.icon i{
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,orange);
+    animation: shake 0.75s;
+}
+.icon:hover i{
+    color: white;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
