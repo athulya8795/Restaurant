@@ -48,12 +48,12 @@ li a{
 #para{
     margin-left: 10%;
     margin-bottom: 600px;
-    justify-content: center;
+    justify-content: center;padding-right: 5px;
 }
 #photo h1{
     text-align: center;
     margin-bottom: 50px;
-    margin-top: -350px;
+    margin-top: -550px;
 }
 #menu h1{
     text-align: center;
@@ -111,4 +111,8 @@ li a{
     40%{
         transform: rotate(-15deg);
     }
+}
+
+html{
+    scroll-behavior: smooth;
 }
